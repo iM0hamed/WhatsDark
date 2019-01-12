@@ -386,7 +386,7 @@
 - (void)viewDidAppear:(_Bool)arg1{
     SCLAlertView *alert = [[SCLAlertView alloc] initWithNewWindow];
     [alert addButton:@"WhatsDark Settings" target:self selector:@selector(loadNewSettings:)];
-    [alert showQuestion:nil subTitle:@"WhatsDark Settings" closeButtonTitle:@"Cancle" duration:0.0f];
+    [alert showQuestion:nil subTitle:@"WhatsDark Settings" closeButtonTitle:@"cancel" duration:0.0f];
     
     
 }
