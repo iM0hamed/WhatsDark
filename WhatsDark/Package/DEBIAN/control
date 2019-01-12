@@ -1,8 +1,8 @@
-Package: com.ipaapps.WhatsDark.WhatsDark
+Package: com.ipaapps.whats.whats
 Name: WhatsDark
-Version: 0.1-1
+Version: 0.7
 Description: 
-Section: System
+Section: iOS 11
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: 
 Replaces: 

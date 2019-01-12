@@ -7,22 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54B80FAF2190C5DF005D5C7C /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B80FAE2190C5DE005D5C7C /* ViewController.h */; };
 		54EC5326218F3889008306B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EC5325218F3889008306B8 /* UIKit.framework */; };
 		54EC5328218F3889008306B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EC5327218F3889008306B8 /* Foundation.framework */; };
-		54EC532A218F3889008306B8 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EC5329218F3889008306B8 /* CydiaSubstrate.framework */; };
 		54EC5333218F3889008306B8 /* WhatsDark.mm in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5332218F3889008306B8 /* WhatsDark.mm */; };
+		54EC534F218F39ED008306B8 /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC533E218F39ED008306B8 /* SCLTextView.m */; };
+		54EC5350218F39ED008306B8 /* SCLMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC533F218F39ED008306B8 /* SCLMacros.h */; };
+		54EC5351218F39ED008306B8 /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5340218F39ED008306B8 /* SCLAlertViewResponder.m */; };
+		54EC5352218F39ED008306B8 /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5341218F39ED008306B8 /* SCLTimerDisplay.m */; };
+		54EC5353218F39ED008306B8 /* SCLSwitchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5342218F39ED008306B8 /* SCLSwitchView.h */; };
+		54EC5354218F39ED008306B8 /* SCLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5343218F39ED008306B8 /* SCLButton.h */; };
+		54EC5355218F39ED008306B8 /* SCLTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5344218F39ED008306B8 /* SCLTextView.h */; };
+		54EC5356218F39ED008306B8 /* SCLAlertViewStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5345218F39ED008306B8 /* SCLAlertViewStyleKit.h */; };
+		54EC5357218F39ED008306B8 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5346218F39ED008306B8 /* UIImage+ImageEffects.m */; };
+		54EC5358218F39ED008306B8 /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5347218F39ED008306B8 /* SCLAlertViewStyleKit.m */; };
+		54EC5359218F39ED008306B8 /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5348218F39ED008306B8 /* SCLAlertView.m */; };
+		54EC535A218F39ED008306B8 /* SCLSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5349218F39ED008306B8 /* SCLSwitchView.m */; };
+		54EC535B218F39ED008306B8 /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC534A218F39ED008306B8 /* SCLButton.m */; };
+		54EC535C218F39ED008306B8 /* SCLTimerDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC534B218F39ED008306B8 /* SCLTimerDisplay.h */; };
+		54EC535D218F39ED008306B8 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC534C218F39ED008306B8 /* UIImage+ImageEffects.h */; };
+		54EC535E218F39ED008306B8 /* SCLAlertViewResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC534D218F39ED008306B8 /* SCLAlertViewResponder.h */; };
+		54EC535F218F39ED008306B8 /* SCLAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC534E218F39ED008306B8 /* SCLAlertView.h */; };
+		54EC5361218F3A24008306B8 /* Tweak.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5360218F3A24008306B8 /* Tweak.h */; };
+		54EC5364218F3AB8008306B8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EC5363218F3AB8008306B8 /* AVFoundation.framework */; };
+		54EC5366218F3AC7008306B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EC5365218F3AC7008306B8 /* CoreGraphics.framework */; };
+		54EC5368218F3AD3008306B8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EC5367218F3AD3008306B8 /* QuartzCore.framework */; };
+		54EC536A218F3AE3008306B8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EC5369218F3AE3008306B8 /* Accelerate.framework */; };
+		54EC536C218F3AEF008306B8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EC536B218F3AEF008306B8 /* AudioToolbox.framework */; };
+		54EC536E218F3B4D008306B8 /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC536D218F3B4C008306B8 /* Shared.h */; };
+		54EC5391218F438F008306B8 /* FRPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5372218F438E008306B8 /* FRPreferences.h */; };
+		54EC5392218F438F008306B8 /* FRPSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5373218F438E008306B8 /* FRPSettings.m */; };
+		54EC5393218F438F008306B8 /* FRPSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5374218F438E008306B8 /* FRPSegmentCell.m */; };
+		54EC5394218F438F008306B8 /* FRPSliderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5375218F438E008306B8 /* FRPSliderCell.h */; };
+		54EC5395218F438F008306B8 /* FRPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5376218F438E008306B8 /* FRPrefs.h */; };
+		54EC5396218F438F008306B8 /* FRPValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5377218F438E008306B8 /* FRPValueCell.m */; };
+		54EC5397218F438F008306B8 /* FRPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5378218F438E008306B8 /* FRPCell.m */; };
+		54EC5398218F438F008306B8 /* FRPViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5379218F438E008306B8 /* FRPViewCell.h */; };
+		54EC5399218F438F008306B8 /* FRPDeveloperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC537A218F438E008306B8 /* FRPDeveloperCell.m */; };
+		54EC539A218F438F008306B8 /* FRPSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC537B218F438F008306B8 /* FRPSection.h */; };
+		54EC539B218F438F008306B8 /* FRPViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC537C218F438F008306B8 /* FRPViewCell.m */; };
+		54EC539C218F438F008306B8 /* FRPSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC537D218F438F008306B8 /* FRPSliderCell.m */; };
+		54EC539D218F438F008306B8 /* FRPSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC537E218F438F008306B8 /* FRPSettings.h */; };
+		54EC539E218F438F008306B8 /* FRPValueCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC537F218F438F008306B8 /* FRPValueCell.h */; };
+		54EC539F218F438F008306B8 /* FRPTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5380218F438F008306B8 /* FRPTextFieldCell.h */; };
+		54EC53A0218F438F008306B8 /* FRPViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5381218F438F008306B8 /* FRPViewSection.h */; };
+		54EC53A1218F438F008306B8 /* FRPViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5382218F438F008306B8 /* FRPViewSection.m */; };
+		54EC53A2218F438F008306B8 /* FRPSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5383218F438F008306B8 /* FRPSwitchCell.h */; };
+		54EC53A3218F438F008306B8 /* FRPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5384218F438F008306B8 /* FRPreferences.m */; };
+		54EC53A4218F438F008306B8 /* FRPLinkCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5385218F438F008306B8 /* FRPLinkCell.h */; };
+		54EC53A5218F438F008306B8 /* FRPSelectListTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5386218F438F008306B8 /* FRPSelectListTable.h */; };
+		54EC53A6218F438F008306B8 /* FRPLinkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5387218F438F008306B8 /* FRPLinkCell.m */; };
+		54EC53A7218F438F008306B8 /* FRPSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5388218F438F008306B8 /* FRPSwitchCell.m */; };
+		54EC53A8218F438F008306B8 /* FRPSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC5389218F438F008306B8 /* FRPSection.m */; };
+		54EC53A9218F438F008306B8 /* FRPCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC538A218F438F008306B8 /* FRPCell.h */; };
+		54EC53AA218F438F008306B8 /* FRPListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC538B218F438F008306B8 /* FRPListCell.m */; };
+		54EC53AB218F438F008306B8 /* FRPListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC538C218F438F008306B8 /* FRPListCell.h */; };
+		54EC53AC218F438F008306B8 /* FRPSelectListTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC538D218F438F008306B8 /* FRPSelectListTable.m */; };
+		54EC53AD218F438F008306B8 /* FRPDeveloperCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC538E218F438F008306B8 /* FRPDeveloperCell.h */; };
+		54EC53AE218F438F008306B8 /* FRPTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC538F218F438F008306B8 /* FRPTextFieldCell.m */; };
+		54EC53AF218F438F008306B8 /* FRPSegmentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EC5390218F438F008306B8 /* FRPSegmentCell.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54B80FAE2190C5DE005D5C7C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
 		54EC5322218F3889008306B8 /* WhatsDark.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WhatsDark.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		54EC5325218F3889008306B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		54EC5327218F3889008306B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		54EC5329218F3889008306B8 /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
 		54EC532E218F3889008306B8 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
 		54EC5330218F3889008306B8 /* WhatsDark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhatsDark-Prefix.pch"; sourceTree = "<group>"; };
-		54EC5331218F3889008306B8 /* WhatsDark.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = WhatsDark.xm; sourceTree = "<group>"; };
+		54EC5331218F3889008306B8 /* WhatsDark.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc.preprocessed; path = WhatsDark.xm; sourceTree = "<group>"; };
 		54EC5332218F3889008306B8 /* WhatsDark.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WhatsDark.mm; sourceTree = "<group>"; };
 		54EC5337218F3889008306B8 /* WhatsDark.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = WhatsDark.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/WhatsDark.plist; sourceTree = "<group>"; };
+		54EC533E218F39ED008306B8 /* SCLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLTextView.m; path = SCLAlertView/SCLTextView.m; sourceTree = SOURCE_ROOT; };
+		54EC533F218F39ED008306B8 /* SCLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLMacros.h; path = SCLAlertView/SCLMacros.h; sourceTree = SOURCE_ROOT; };
+		54EC5340218F39ED008306B8 /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewResponder.m; path = SCLAlertView/SCLAlertViewResponder.m; sourceTree = SOURCE_ROOT; };
+		54EC5341218F39ED008306B8 /* SCLTimerDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLTimerDisplay.m; path = SCLAlertView/SCLTimerDisplay.m; sourceTree = SOURCE_ROOT; };
+		54EC5342218F39ED008306B8 /* SCLSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLSwitchView.h; path = SCLAlertView/SCLSwitchView.h; sourceTree = SOURCE_ROOT; };
+		54EC5343218F39ED008306B8 /* SCLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLButton.h; path = SCLAlertView/SCLButton.h; sourceTree = SOURCE_ROOT; };
+		54EC5344218F39ED008306B8 /* SCLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLTextView.h; path = SCLAlertView/SCLTextView.h; sourceTree = SOURCE_ROOT; };
+		54EC5345218F39ED008306B8 /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewStyleKit.h; path = SCLAlertView/SCLAlertViewStyleKit.h; sourceTree = SOURCE_ROOT; };
+		54EC5346218F39ED008306B8 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "SCLAlertView/UIImage+ImageEffects.m"; sourceTree = SOURCE_ROOT; };
+		54EC5347218F39ED008306B8 /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewStyleKit.m; path = SCLAlertView/SCLAlertViewStyleKit.m; sourceTree = SOURCE_ROOT; };
+		54EC5348218F39ED008306B8 /* SCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLAlertView.m; path = SCLAlertView/SCLAlertView.m; sourceTree = SOURCE_ROOT; };
+		54EC5349218F39ED008306B8 /* SCLSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLSwitchView.m; path = SCLAlertView/SCLSwitchView.m; sourceTree = SOURCE_ROOT; };
+		54EC534A218F39ED008306B8 /* SCLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLButton.m; path = SCLAlertView/SCLButton.m; sourceTree = SOURCE_ROOT; };
+		54EC534B218F39ED008306B8 /* SCLTimerDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLTimerDisplay.h; path = SCLAlertView/SCLTimerDisplay.h; sourceTree = SOURCE_ROOT; };
+		54EC534C218F39ED008306B8 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "SCLAlertView/UIImage+ImageEffects.h"; sourceTree = SOURCE_ROOT; };
+		54EC534D218F39ED008306B8 /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewResponder.h; path = SCLAlertView/SCLAlertViewResponder.h; sourceTree = SOURCE_ROOT; };
+		54EC534E218F39ED008306B8 /* SCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLAlertView.h; path = SCLAlertView/SCLAlertView.h; sourceTree = SOURCE_ROOT; };
+		54EC5360218F3A24008306B8 /* Tweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweak.h; sourceTree = "<group>"; };
+		54EC5363218F3AB8008306B8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		54EC5365218F3AC7008306B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54EC5367218F3AD3008306B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		54EC5369218F3AE3008306B8 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		54EC536B218F3AEF008306B8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		54EC536D218F3B4C008306B8 /* Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shared.h; path = SCLAlertView/Shared.h; sourceTree = SOURCE_ROOT; };
+		54EC5372218F438E008306B8 /* FRPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPreferences.h; path = FRPreferences/FRPreferences.h; sourceTree = SOURCE_ROOT; };
+		54EC5373218F438E008306B8 /* FRPSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPSettings.m; path = FRPreferences/FRPSettings.m; sourceTree = SOURCE_ROOT; };
+		54EC5374218F438E008306B8 /* FRPSegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPSegmentCell.m; path = FRPreferences/FRPSegmentCell.m; sourceTree = SOURCE_ROOT; };
+		54EC5375218F438E008306B8 /* FRPSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPSliderCell.h; path = FRPreferences/FRPSliderCell.h; sourceTree = SOURCE_ROOT; };
+		54EC5376218F438E008306B8 /* FRPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPrefs.h; path = FRPreferences/FRPrefs.h; sourceTree = SOURCE_ROOT; };
+		54EC5377218F438E008306B8 /* FRPValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPValueCell.m; path = FRPreferences/FRPValueCell.m; sourceTree = SOURCE_ROOT; };
+		54EC5378218F438E008306B8 /* FRPCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPCell.m; path = FRPreferences/FRPCell.m; sourceTree = SOURCE_ROOT; };
+		54EC5379218F438E008306B8 /* FRPViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPViewCell.h; path = FRPreferences/FRPViewCell.h; sourceTree = SOURCE_ROOT; };
+		54EC537A218F438E008306B8 /* FRPDeveloperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPDeveloperCell.m; path = FRPreferences/FRPDeveloperCell.m; sourceTree = SOURCE_ROOT; };
+		54EC537B218F438F008306B8 /* FRPSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPSection.h; path = FRPreferences/FRPSection.h; sourceTree = SOURCE_ROOT; };
+		54EC537C218F438F008306B8 /* FRPViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPViewCell.m; path = FRPreferences/FRPViewCell.m; sourceTree = SOURCE_ROOT; };
+		54EC537D218F438F008306B8 /* FRPSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPSliderCell.m; path = FRPreferences/FRPSliderCell.m; sourceTree = SOURCE_ROOT; };
+		54EC537E218F438F008306B8 /* FRPSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPSettings.h; path = FRPreferences/FRPSettings.h; sourceTree = SOURCE_ROOT; };
+		54EC537F218F438F008306B8 /* FRPValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPValueCell.h; path = FRPreferences/FRPValueCell.h; sourceTree = SOURCE_ROOT; };
+		54EC5380218F438F008306B8 /* FRPTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPTextFieldCell.h; path = FRPreferences/FRPTextFieldCell.h; sourceTree = SOURCE_ROOT; };
+		54EC5381218F438F008306B8 /* FRPViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPViewSection.h; path = FRPreferences/FRPViewSection.h; sourceTree = SOURCE_ROOT; };
+		54EC5382218F438F008306B8 /* FRPViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPViewSection.m; path = FRPreferences/FRPViewSection.m; sourceTree = SOURCE_ROOT; };
+		54EC5383218F438F008306B8 /* FRPSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPSwitchCell.h; path = FRPreferences/FRPSwitchCell.h; sourceTree = SOURCE_ROOT; };
+		54EC5384218F438F008306B8 /* FRPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPreferences.m; path = FRPreferences/FRPreferences.m; sourceTree = SOURCE_ROOT; };
+		54EC5385218F438F008306B8 /* FRPLinkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPLinkCell.h; path = FRPreferences/FRPLinkCell.h; sourceTree = SOURCE_ROOT; };
+		54EC5386218F438F008306B8 /* FRPSelectListTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPSelectListTable.h; path = FRPreferences/FRPSelectListTable.h; sourceTree = SOURCE_ROOT; };
+		54EC5387218F438F008306B8 /* FRPLinkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPLinkCell.m; path = FRPreferences/FRPLinkCell.m; sourceTree = SOURCE_ROOT; };
+		54EC5388218F438F008306B8 /* FRPSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPSwitchCell.m; path = FRPreferences/FRPSwitchCell.m; sourceTree = SOURCE_ROOT; };
+		54EC5389218F438F008306B8 /* FRPSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPSection.m; path = FRPreferences/FRPSection.m; sourceTree = SOURCE_ROOT; };
+		54EC538A218F438F008306B8 /* FRPCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPCell.h; path = FRPreferences/FRPCell.h; sourceTree = SOURCE_ROOT; };
+		54EC538B218F438F008306B8 /* FRPListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPListCell.m; path = FRPreferences/FRPListCell.m; sourceTree = SOURCE_ROOT; };
+		54EC538C218F438F008306B8 /* FRPListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPListCell.h; path = FRPreferences/FRPListCell.h; sourceTree = SOURCE_ROOT; };
+		54EC538D218F438F008306B8 /* FRPSelectListTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPSelectListTable.m; path = FRPreferences/FRPSelectListTable.m; sourceTree = SOURCE_ROOT; };
+		54EC538E218F438F008306B8 /* FRPDeveloperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPDeveloperCell.h; path = FRPreferences/FRPDeveloperCell.h; sourceTree = SOURCE_ROOT; };
+		54EC538F218F438F008306B8 /* FRPTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPTextFieldCell.m; path = FRPreferences/FRPTextFieldCell.m; sourceTree = SOURCE_ROOT; };
+		54EC5390218F438F008306B8 /* FRPSegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPSegmentCell.h; path = FRPreferences/FRPSegmentCell.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,9 +140,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54EC536C218F3AEF008306B8 /* AudioToolbox.framework in Frameworks */,
+				54EC536A218F3AE3008306B8 /* Accelerate.framework in Frameworks */,
+				54EC5368218F3AD3008306B8 /* QuartzCore.framework in Frameworks */,
+				54EC5366218F3AC7008306B8 /* CoreGraphics.framework in Frameworks */,
+				54EC5364218F3AB8008306B8 /* AVFoundation.framework in Frameworks */,
 				54EC5326218F3889008306B8 /* UIKit.framework in Frameworks */,
 				54EC5328218F3889008306B8 /* Foundation.framework in Frameworks */,
-				54EC532A218F3889008306B8 /* CydiaSubstrate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +173,13 @@
 		54EC5324218F3889008306B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				54EC536B218F3AEF008306B8 /* AudioToolbox.framework */,
+				54EC5369218F3AE3008306B8 /* Accelerate.framework */,
+				54EC5367218F3AD3008306B8 /* QuartzCore.framework */,
+				54EC5365218F3AC7008306B8 /* CoreGraphics.framework */,
+				54EC5363218F3AB8008306B8 /* AVFoundation.framework */,
 				54EC5325218F3889008306B8 /* UIKit.framework */,
 				54EC5327218F3889008306B8 /* Foundation.framework */,
-				54EC5329218F3889008306B8 /* CydiaSubstrate.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -69,6 +187,8 @@
 		54EC532B218F3889008306B8 /* WhatsDark */ = {
 			isa = PBXGroup;
 			children = (
+				54EC5371218F4384008306B8 /* FRPreferences */,
+				54EC533D218F39CD008306B8 /* SCLAlertView */,
 				54EC5331218F3889008306B8 /* WhatsDark.xm */,
 				54EC5332218F3889008306B8 /* WhatsDark.mm */,
 				54EC532C218F3889008306B8 /* Package */,
@@ -89,6 +209,7 @@
 		54EC532D218F3889008306B8 /* DEBIAN */ = {
 			isa = PBXGroup;
 			children = (
+				54EC5360218F3A24008306B8 /* Tweak.h */,
 				54EC532E218F3889008306B8 /* control */,
 			);
 			name = DEBIAN;
@@ -126,6 +247,70 @@
 			name = DynamicLibraries;
 			sourceTree = "<group>";
 		};
+		54EC533D218F39CD008306B8 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				54B80FAE2190C5DE005D5C7C /* ViewController.h */,
+				54EC534E218F39ED008306B8 /* SCLAlertView.h */,
+				54EC5348218F39ED008306B8 /* SCLAlertView.m */,
+				54EC534D218F39ED008306B8 /* SCLAlertViewResponder.h */,
+				54EC5340218F39ED008306B8 /* SCLAlertViewResponder.m */,
+				54EC5345218F39ED008306B8 /* SCLAlertViewStyleKit.h */,
+				54EC5347218F39ED008306B8 /* SCLAlertViewStyleKit.m */,
+				54EC5343218F39ED008306B8 /* SCLButton.h */,
+				54EC534A218F39ED008306B8 /* SCLButton.m */,
+				54EC536D218F3B4C008306B8 /* Shared.h */,
+				54EC533F218F39ED008306B8 /* SCLMacros.h */,
+				54EC5342218F39ED008306B8 /* SCLSwitchView.h */,
+				54EC5349218F39ED008306B8 /* SCLSwitchView.m */,
+				54EC5344218F39ED008306B8 /* SCLTextView.h */,
+				54EC533E218F39ED008306B8 /* SCLTextView.m */,
+				54EC534B218F39ED008306B8 /* SCLTimerDisplay.h */,
+				54EC5341218F39ED008306B8 /* SCLTimerDisplay.m */,
+				54EC534C218F39ED008306B8 /* UIImage+ImageEffects.h */,
+				54EC5346218F39ED008306B8 /* UIImage+ImageEffects.m */,
+			);
+			name = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		54EC5371218F4384008306B8 /* FRPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				54EC538A218F438F008306B8 /* FRPCell.h */,
+				54EC5378218F438E008306B8 /* FRPCell.m */,
+				54EC538E218F438F008306B8 /* FRPDeveloperCell.h */,
+				54EC537A218F438E008306B8 /* FRPDeveloperCell.m */,
+				54EC5385218F438F008306B8 /* FRPLinkCell.h */,
+				54EC5387218F438F008306B8 /* FRPLinkCell.m */,
+				54EC538C218F438F008306B8 /* FRPListCell.h */,
+				54EC538B218F438F008306B8 /* FRPListCell.m */,
+				54EC5372218F438E008306B8 /* FRPreferences.h */,
+				54EC5384218F438F008306B8 /* FRPreferences.m */,
+				54EC5376218F438E008306B8 /* FRPrefs.h */,
+				54EC537B218F438F008306B8 /* FRPSection.h */,
+				54EC5389218F438F008306B8 /* FRPSection.m */,
+				54EC5390218F438F008306B8 /* FRPSegmentCell.h */,
+				54EC5374218F438E008306B8 /* FRPSegmentCell.m */,
+				54EC5386218F438F008306B8 /* FRPSelectListTable.h */,
+				54EC538D218F438F008306B8 /* FRPSelectListTable.m */,
+				54EC537E218F438F008306B8 /* FRPSettings.h */,
+				54EC5373218F438E008306B8 /* FRPSettings.m */,
+				54EC5375218F438E008306B8 /* FRPSliderCell.h */,
+				54EC537D218F438F008306B8 /* FRPSliderCell.m */,
+				54EC5383218F438F008306B8 /* FRPSwitchCell.h */,
+				54EC5388218F438F008306B8 /* FRPSwitchCell.m */,
+				54EC5380218F438F008306B8 /* FRPTextFieldCell.h */,
+				54EC538F218F438F008306B8 /* FRPTextFieldCell.m */,
+				54EC537F218F438F008306B8 /* FRPValueCell.h */,
+				54EC5377218F438E008306B8 /* FRPValueCell.m */,
+				54EC5379218F438E008306B8 /* FRPViewCell.h */,
+				54EC537C218F438F008306B8 /* FRPViewCell.m */,
+				54EC5381218F438F008306B8 /* FRPViewSection.h */,
+				54EC5382218F438F008306B8 /* FRPViewSection.m */,
+			);
+			name = FRPreferences;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -133,6 +318,34 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54EC5356218F39ED008306B8 /* SCLAlertViewStyleKit.h in Headers */,
+				54EC53A5218F438F008306B8 /* FRPSelectListTable.h in Headers */,
+				54EC5395218F438F008306B8 /* FRPrefs.h in Headers */,
+				54EC535D218F39ED008306B8 /* UIImage+ImageEffects.h in Headers */,
+				54EC5353218F39ED008306B8 /* SCLSwitchView.h in Headers */,
+				54EC536E218F3B4D008306B8 /* Shared.h in Headers */,
+				54EC539D218F438F008306B8 /* FRPSettings.h in Headers */,
+				54EC5355218F39ED008306B8 /* SCLTextView.h in Headers */,
+				54EC53AD218F438F008306B8 /* FRPDeveloperCell.h in Headers */,
+				54EC53A4218F438F008306B8 /* FRPLinkCell.h in Headers */,
+				54EC5398218F438F008306B8 /* FRPViewCell.h in Headers */,
+				54EC5394218F438F008306B8 /* FRPSliderCell.h in Headers */,
+				54EC535E218F39ED008306B8 /* SCLAlertViewResponder.h in Headers */,
+				54B80FAF2190C5DF005D5C7C /* ViewController.h in Headers */,
+				54EC53AF218F438F008306B8 /* FRPSegmentCell.h in Headers */,
+				54EC5361218F3A24008306B8 /* Tweak.h in Headers */,
+				54EC5391218F438F008306B8 /* FRPreferences.h in Headers */,
+				54EC5354218F39ED008306B8 /* SCLButton.h in Headers */,
+				54EC53AB218F438F008306B8 /* FRPListCell.h in Headers */,
+				54EC539F218F438F008306B8 /* FRPTextFieldCell.h in Headers */,
+				54EC53A2218F438F008306B8 /* FRPSwitchCell.h in Headers */,
+				54EC539E218F438F008306B8 /* FRPValueCell.h in Headers */,
+				54EC535C218F39ED008306B8 /* SCLTimerDisplay.h in Headers */,
+				54EC535F218F39ED008306B8 /* SCLAlertView.h in Headers */,
+				54EC5350218F39ED008306B8 /* SCLMacros.h in Headers */,
+				54EC53A0218F438F008306B8 /* FRPViewSection.h in Headers */,
+				54EC539A218F438F008306B8 /* FRPSection.h in Headers */,
+				54EC53A9218F438F008306B8 /* FRPCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +443,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54EC534F218F39ED008306B8 /* SCLTextView.m in Sources */,
+				54EC535B218F39ED008306B8 /* SCLButton.m in Sources */,
+				54EC53AA218F438F008306B8 /* FRPListCell.m in Sources */,
+				54EC5396218F438F008306B8 /* FRPValueCell.m in Sources */,
+				54EC535A218F39ED008306B8 /* SCLSwitchView.m in Sources */,
+				54EC5392218F438F008306B8 /* FRPSettings.m in Sources */,
+				54EC539C218F438F008306B8 /* FRPSliderCell.m in Sources */,
+				54EC5357218F39ED008306B8 /* UIImage+ImageEffects.m in Sources */,
+				54EC539B218F438F008306B8 /* FRPViewCell.m in Sources */,
+				54EC5352218F39ED008306B8 /* SCLTimerDisplay.m in Sources */,
+				54EC5399218F438F008306B8 /* FRPDeveloperCell.m in Sources */,
 				54EC5333218F3889008306B8 /* WhatsDark.mm in Sources */,
+				54EC5397218F438F008306B8 /* FRPCell.m in Sources */,
+				54EC53AC218F438F008306B8 /* FRPSelectListTable.m in Sources */,
+				54EC5351218F39ED008306B8 /* SCLAlertViewResponder.m in Sources */,
+				54EC5359218F39ED008306B8 /* SCLAlertView.m in Sources */,
+				54EC5358218F39ED008306B8 /* SCLAlertViewStyleKit.m in Sources */,
+				54EC53A6218F438F008306B8 /* FRPLinkCell.m in Sources */,
+				54EC53A7218F438F008306B8 /* FRPSwitchCell.m in Sources */,
+				54EC5393218F438F008306B8 /* FRPSegmentCell.m in Sources */,
+				54EC53A3218F438F008306B8 /* FRPreferences.m in Sources */,
+				54EC53A8218F438F008306B8 /* FRPSection.m in Sources */,
+				54EC53AE218F438F008306B8 /* FRPTextFieldCell.m in Sources */,
+				54EC53A1218F438F008306B8 /* FRPViewSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +537,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -311,9 +549,9 @@
 				MonkeyDevBuildPackageOnAnyBuild = NO;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
-				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
+				MonkeyDevDeviceIP = 192.168.1.140;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 22;
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
 				MonkeyDevkillProcessOnInstall = SpringBoard;
@@ -326,6 +564,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -336,9 +576,9 @@
 				MonkeyDevBuildPackageOnAnyBuild = NO;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
-				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
+				MonkeyDevDeviceIP = 192.168.1.140;
+				MonkeyDevDevicePassword = alpine;
+				MonkeyDevDevicePort = 22;
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
 				MonkeyDevkillProcessOnInstall = SpringBoard;
